@@ -1,0 +1,17 @@
+package week2;
+
+public class 三角图形打印 {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+		for(int n = 1 ; n <= 5 ; n++) {
+			for(int m = 1 ; m <= 5-n ; m++)
+			System.out.print(" ");
+			for(int l = 1 ; l <= n ; l++)
+			System.out.print("* ");
+			System.out.println();
+		}
+		
+	}
+
+}
