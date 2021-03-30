@@ -26,7 +26,7 @@ public class Subject {
 	@Override
 	public String toString() {
 		String info="";
-		info= "瀛︾浠ｇ爜:"+this.id+"\t"+"瀛︾鍚嶇О:"+this.name;
+		info= "学科代码:"+this.id+"\t"+"学科名称:"+this.name;
 		return info;
 	}
 	

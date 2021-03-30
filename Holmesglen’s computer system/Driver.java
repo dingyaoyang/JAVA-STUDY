@@ -12,27 +12,27 @@ public class Driver {
 			switch(choose){
 			case 1:createList();break;
 			case 2:printList();break;
-			default:System.out.println("æ— æ•ˆçš„é€‰æ‹©ï¼");
+			default:System.out.println("ÎŞĞ§µÄÑ¡Ôñ£¡");
 			}
 			choose=menu();
 		}
-		System.out.println("æ¬¢è¿ä¸‹æ¬¡ä½¿ç”¨ï¼");
+		System.out.println("»¶Ó­ÏÂ´ÎÊ¹ÓÃ£¡");
 	}
 	
 	public static int menu(){
 		int choose=0;
 		Scanner scan= new Scanner(System.in);
-		System.out.println("========WTUé€‰è¯¾ç³»ç»Ÿ=======");
+		System.out.println("========WTUÑ¡¿ÎÏµÍ³=======");
 		System.out.println("1:create list");
 		System.out.println("2:print list");
-		System.out.println("è¯·è¾“å…¥æ“ä½œé€‰æ‹©:");
+		System.out.println("ÇëÊäÈë²Ù×÷Ñ¡Ôñ:");
 		choose=scan.nextInt();
 		return choose;
 	}
 
 	public static void createList(){
 		if(list != null) {
-			System.out.println("æ˜¯å¦é‡æ–°è¾“å…¥ï¼Ÿï¼ˆy/nï¼‰ï¼š");
+			System.out.println("ÊÇ·ñÖØĞÂÊäÈë£¿£¨y/n£©£º");
 			Scanner scan = new Scanner(System.in);
 			String ch = scan.next();
 			if(ch.equals("n")) {
@@ -41,21 +41,21 @@ public class Driver {
 		}
 		
 		Scanner scan= new Scanner(System.in);
-		System.out.println("è¯·è¾“å…¥å­¦å¹´:");
+		System.out.println("ÇëÊäÈëÑ§Äê:");
 		int year=scan.nextInt();
-		System.out.println("è¯·è¾“å…¥å­¦æœŸï¼ˆ1-2ï¼‰:");
+		System.out.println("ÇëÊäÈëÑ§ÆÚ£¨1-2£©:");
 		int semester=scan.nextInt();
-		System.out.println("è¯·è¾“å…¥å­¦ç§‘ä»£ç :");
+		System.out.println("ÇëÊäÈëÑ§¿Æ´úÂë:");
 		String subid=scan.next();
-		System.out.println("è¯·è¾“å…¥å­¦ç§‘åç§°:");
+		System.out.println("ÇëÊäÈëÑ§¿ÆÃû³Æ:");
 		String subname=scan.next();		
-		System.out.println("è¯·è¾“å…¥å­¦ç”Ÿ1å§“å:");
+		System.out.println("ÇëÊäÈëÑ§Éú1ĞÕÃû:");
 		String s1name=scan.next();
-		System.out.println("è¯·è¾“å…¥å­¦ç”Ÿ1å­¦å·:");
+		System.out.println("ÇëÊäÈëÑ§Éú1Ñ§ºÅ:");
 		String s1id=scan.next();
-		System.out.println("è¯·è¾“å…¥å­¦ç”Ÿ2å§“å:");
+		System.out.println("ÇëÊäÈëÑ§Éú2ĞÕÃû:");
 		String s2name=scan.next();
-		System.out.println("è¯·è¾“å…¥å­¦ç”Ÿ2å­¦å·:");
+		System.out.println("ÇëÊäÈëÑ§Éú2Ñ§ºÅ:");
 		String s2id=scan.next();
 		Student s1=new Student(s1name,s1id);
 		Student s2=new Student(s2name,s2id);
@@ -65,7 +65,7 @@ public class Driver {
 	
 	public static void printList(){
 		if(list == null) {
-			System.out.println("è¯·å…ˆè¾“å…¥ï¼");
+			System.out.println("ÇëÏÈÊäÈë£¡");
 			return;
 		}
 		System.out.println(list.toString());

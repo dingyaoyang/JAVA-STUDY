@@ -51,9 +51,9 @@ public class classList {
 	
 	public String toString() {
 		String info="";
-		info=this.year+"瀛﹀勾\t"+this.semester+"瀛︽湡\n";
+		info=this.year+"学年\t"+this.semester+"学期\n";
 		info+=this.sub.toString()+"\n";
-		info+="瀛﹀彿\t濮撳悕\n";
+		info+="学号\t姓名\n";
 		info+="=======================\n";
 		info+=this.s1.toString()+"\n";
 		info+=this.s2.toString();
