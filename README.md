@@ -1,2 +1,2 @@
 # JAVA-STUDY
- welcome to my
+ welcome to my java-study!
